@@ -1,3 +1,7 @@
+#include "weapon.h"
+#include "armor.h"
+#include "jewellery.h"
+
 class Equipment {
 private:
 	Weapon *weapon;

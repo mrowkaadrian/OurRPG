@@ -2,6 +2,43 @@
 #include <string>
 #include <vector>
 
+#include "stats.h"
+#include "equipment.h"
+#include "item.h"
+#include "mob.h"
+#include "skill.h"
+
+enum Gender
+{
+	Female,
+	Male
+};
+
+enum Direction
+{
+	Up,
+	Down,
+	Left,
+	Right
+};
+
+enum Race
+{
+	Human,
+	Orc,
+	Elf
+};
+
+enum Profession
+{
+	Archer,
+	Assassin,
+	Warrior,
+	Sorcerer,
+	Dark_Wizard,
+	Druid
+};
+
 class Player {
 private:
 	std::string name;
