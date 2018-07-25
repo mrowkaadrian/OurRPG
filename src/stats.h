@@ -1,3 +1,6 @@
+#ifndef STATS_H
+#define STATS_H
+
 class Stats
 {
 private:
@@ -7,5 +10,7 @@ private:
 protected:
 	int health, mana, base_dmg, base_def, dodge;
 public:
-	void addStat();
+	void addStat(int);
 };
+
+#endif

@@ -1,6 +1,8 @@
+#include <iostream>
+
 #include "stats.h"
 
-Stats::addStat(int number)
+void Stats::addStat(int number)
 {
 	if (stat_points > 0)
 	{

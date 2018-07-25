@@ -1,3 +1,6 @@
+#ifndef SKILL_H
+#define SKILL_H
+
 #include <string>
 
 enum Element
@@ -15,5 +18,7 @@ private:
 	std::string name;
 	int level, mana_cost;
 public:
-	virtual Skill();
+	Skill();
 };
+
+#endif

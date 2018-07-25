@@ -1,4 +1,9 @@
+#ifndef MOB_H
+#define MOB_H
+
 #include <iostream>
+
+#include "skill.h"
 
 class Mob
 {
@@ -12,3 +17,5 @@ public:
 	Mob();
 	Mob(std::string, Stats, int);
 };
+
+#endif

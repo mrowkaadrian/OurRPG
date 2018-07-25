@@ -1,12 +1,15 @@
-#include "weapon.h"
-#include "armor.h"
-#include "jewellery.h"
+#ifndef EQUIPMENT_H
+#define EQUIPMENT_H
+
+class Armor;
+class Weapon;
+class Jewellery;
 
 class Equipment {
 private:
 	Weapon *weapon;
 	Armor *helmet;
-	Armor *chestplate;
+	Armor *chest;
 	Armor *shield;
 	Armor *boots;
 	Armor *legs;
@@ -16,7 +19,7 @@ public:
 	Equipment();
 	bool wearWeapon();
 	bool wearHelmet();
-	bool wearChestplate();
+	bool wearChest();
 	bool wearShield();
 	bool wearBoots();
 	bool wearLegs();
@@ -25,3 +28,5 @@ public:
 
 	int calculateDefence();
 };
+
+#endif

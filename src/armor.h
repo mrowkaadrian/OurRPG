@@ -1,17 +1,18 @@
+#ifndef ARMOR_H
+#define ARMOR_H
+
 #include "item.h"
 
 enum EqType
 {
 	Weapon,
 	Helmet,
-	Chestplate,
+	Chest,
 	Shield,
 	Boots,
 	Legs,
-	Necklace,
-	Ring,
-	Earrings
-}
+	Jewellery
+};
 
 class Armor : public Item
 {
@@ -20,3 +21,5 @@ private:
 	int defence;
 //	*additional_stats;
 };
+
+#endif

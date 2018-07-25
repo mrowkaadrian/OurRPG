@@ -1,3 +1,6 @@
+#ifndef ITEM_H
+#define ITEM_H
+
 #include <string>
 
 class Item
@@ -7,5 +10,7 @@ private:
 	int price;
 	int weight;
 public:
-	virtual Item();
+	Item();
 };
+
+#endif

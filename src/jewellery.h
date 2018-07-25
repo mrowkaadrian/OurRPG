@@ -1,6 +1,9 @@
+#ifndef JEWELLERY_H
+#define JEWELLERY_H
+
 #include "item.h"
 
-enum JeweType
+enum JewelleryType
 {
 	Necklace,
 	Ring,
@@ -10,6 +13,8 @@ enum JeweType
 class Jewellery : public Item
 {
 private:
-	JeweType type;
+	JewelleryType type;
 //	*additional_stats;
 };
+
+#endif

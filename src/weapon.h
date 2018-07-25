@@ -1,3 +1,6 @@
+#ifndef WEAPON_H
+#define WEAPON_H
+
 #include "item.h"
 
 enum WeaponType
@@ -15,3 +18,4 @@ private:
 	int damage, durability;
 };
 
+#endif

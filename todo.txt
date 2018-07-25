@@ -1,0 +1,10 @@
+raczej c++, sdl (potem moze dorzuci sie i zrobi, zeby bylo webowe)
+
+gildie,
+kuznia (zbieranie matsow i wytwarzanie broni, zbroi itp)
+rozkładanie broni na materialy, zaklinanie
+ciekawy system walki
+poruszanie sie po mapie (WSAD, strzalki)
+miasta (przynajmniej ze 3)
+bossy, ciekawy loot (jakies artefakty)
+rynek (miedzy graczami) oraz merchanty
